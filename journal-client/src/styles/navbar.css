@@ -1,0 +1,130 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #5a6f3d;
+  box-shadow: 0 2px 12px rgba(201, 163, 249, 0.2);
+  z-index: 1000;
+  transition: all 0.3s ease;
+  height: 3.5rem;
+  width: 100%;
+  padding: 0 2rem;
+  border-bottom: 2px solid rgba(201, 163, 249, 0.1);
+}
+
+.navbar-content {
+  display: flex;
+  justify-content: space-between; /* This spreads items to extreme ends */
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+body {
+  padding-top: 3.5rem; /* Same as navbar height */
+}
+
+.brand {
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: #b088f9;
+  text-decoration: none;
+  letter-spacing: 0.3px;
+  transition: all 0.2s ease;
+  padding-right: 1rem;
+}
+
+.brand:hover {
+  transform: scale(1.02);
+  color: #9666f8;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+  margin-left: auto;
+}
+
+.nav-link {
+  color: #666666;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.9rem;
+  padding: 0.4rem 0.9rem;
+  border-radius: 5px;
+  transition: all 0.2s ease;
+  letter-spacing: 0.2px;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.nav-link:hover {
+  background-color: rgba(201, 163, 249, 0.1);
+  color: #b088f9;
+  transform: translateY(-1px);
+}
+
+.nav-icon {
+  font-size: 1.1rem;
+}
+
+.logout-btn {
+  background: #b088f9;
+  border: none;
+  color: white;
+  padding: 0.4rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+  letter-spacing: 0.2px;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.logout-btn:hover {
+  background-color: #9666f8;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 6px rgba(176, 136, 249, 0.3);
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    height: 3rem;
+    padding: 0 1rem;
+  }
+  
+  body {
+    padding-top: 3rem; /* Adjust for mobile navbar height */
+  }
+  
+  .navbar-content {
+    padding: 0;
+  }
+  
+  .brand {
+    font-size: 1.1rem;
+  }
+  
+  .nav-links {
+    gap: 0.8rem;
+  }
+
+  .nav-link, 
+  .logout-btn {
+    font-size: 0.85rem;
+    padding: 0.35rem 0.8rem;
+  }
+  
+  .nav-icon {
+    font-size: 1rem;
+  }
+}
