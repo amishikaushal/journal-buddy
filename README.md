@@ -65,10 +65,11 @@ Secure login/signup using JWT (JSON Web Tokens).
 └── README.md
 ```
 
-Mood Dashboard & Sentiment Stats:
-
-
-Journal Form with Sentiment Feedback:
+## 🔍 Website Previews : 
+![CodeQuest Homepage](./journal-client/src/assets/mainpage.png)
+![CodeQuest Homepage](./journal-client/src/assets/mood.png)
+![CodeQuest Homepage](./journal-client/src/assets/login.png)
+![CodeQuest Homepage](./journal-client/src/assets/signup.png)
 
 
 ## 📦 Setup & Run
