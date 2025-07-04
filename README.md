@@ -1,25 +1,25 @@
-📝 Journal Buddy
+### 📝 Journal Buddy
 AI-powered journaling platform for emotional insight and self-growth.
 
-🌟 Overview
+# 🌟 Overview
 Journal Buddy is a full-stack journaling web app that lets users write daily reflections while leveraging AI to gain deep emotional insights. Using Gemini AI, it predicts mood sentiments and provides supportive remarks, helping users track their emotional well-being over time.
 
 🧠 Achieves 90%+ sentiment analysis accuracy with an interactive dashboard to visualize trends.
 
-🚀 Features
+## 🚀 Features
 ✍️ Journal Entry Form
 Write down your feelings and reflections in a dedicated space.
 
-🤖 Mood Prediction & Emotional Feedback
+# 🤖 Mood Prediction & Emotional Feedback
 Entries are analyzed by Gemini AI API, and emotional sentiments (e.g., happy, sad, neutral) are predicted with tailored responses.
 
-💬 AI Chatbot
+# 💬 AI Chatbot
 Get real-time conversations with a Gemini-powered chatbot for advice or emotional support.
 
-📧 Automated Email Reminders
+# 📧 Automated Email Reminders
 If no journal entry is submitted within 24 hours, a gentle reminder is emailed.
 
-📊 Mood Dashboard
+# 📊 Mood Dashboard
 Track emotional trends with an interactive sentiment dashboard and view:
 
 Total number of entries
@@ -28,16 +28,20 @@ Average sentiment scores
 
 Visual mood trends over time
 
-🔐 User Authentication
+# 🔐 User Authentication
 Secure login/signup using JWT (JSON Web Tokens).
 
-🛠️ Tech Stack
-Frontend	Backend	AI & Auth
-React.js + Vite	Node.js + Express	Gemini AI API
-CSS (custom styling)	MongoDB (Mongoose)	JWT Authentication
+### 🛠️ Tech Stack
+
+React.js + Vite	Node.js + Express
+Gemini AI API
+CSS (custom styling)	
+MongoDB (Mongoose)	
+JWT Authentication
 Nodemailer (email)
 
-📁 Project Structure
+### 📁 Project Structure
+```bash
 ├── journal-client/       # Frontend (React)
 │   ├── src/
 │   │   ├── components/
@@ -57,6 +61,7 @@ Nodemailer (email)
 │   └── .env
 │
 └── README.md
+```
 
 Mood Dashboard & Sentiment Stats:
 
@@ -64,14 +69,15 @@ Mood Dashboard & Sentiment Stats:
 Journal Form with Sentiment Feedback:
 
 
-📦 Setup & Run
-1. Clone the Repo
+### 📦 Setup & Run
+
+# 1. Clone the Repo
 ```bash
 git clone https://github.com/amishikaushal/journal-buddy.git
 cd journal-buddy
 ```
 
-2. Configure Environment Variables:
+# 2. Configure Environment Variables:
 
 ```bash
 
@@ -90,7 +96,7 @@ EMAIL_USER=your_email@example.com
 EMAIL_PASS=your_email_password_or_app_token
 ```
 
-3. Install Dependencies
+# 3. Install Dependencies
 ```bash
 cd journal-client
 npm install
