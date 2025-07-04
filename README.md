@@ -33,12 +33,14 @@ Secure login/signup using JWT (JSON Web Tokens).
 
 ## 🛠️ Tech Stack
 
-React.js + Vite	Node.js + Express
-Gemini AI API
-CSS (custom styling)	
-MongoDB (Mongoose)	
-JWT Authentication
-Nodemailer (email)
+ Layer     | Technology                            |
+|-----------|----------------------------------------|
+| Frontend  | React, JavaScript, HTML, CSS           |
+| Backend   | Node.js, Express                       |
+| Database  | MongoDB                                |
+| Auth      | JWT Auth               |
+| Tooling   | Vite, CSS Animations, Jwt Auth , API KEY        |
+| API       | Gemini AI API                          |
 
 ## 📁 Project Structure
 ```bash
